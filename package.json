@@ -1,0 +1,18 @@
+{
+  "name": "bookshelf-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o public/ --recursive"
+  },
+  "author": "Tristan Budiman",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
