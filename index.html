@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bookshelf App</title>
+  </head>
+  <body>
+    <header class="navbar bg-primary navbar-dark navbar-expand-lg">
+      <h1 class="fs-1 navbar-brand text-center w-100">Bookshelf App</h1>
+    </header>
+    <main class="mx-auto my-3">
+      <form class="card border rounded-3 p-4">
+        <h3 class="text-center text-primary mb-3">Masukkan Buku</h3>
+        <div class="mb-3">
+          <label for="judul1" class="form-label">Judul Buku</label>
+          <input type="text" id="judul1" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="penulis" class="form-label">Penulis Buku</label>
+          <input type="text" id="penulis" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="tahun" class="form-label">Tahun Terbit</label>
+          <input type="number" id="tahun" class="form-control" />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="selesai" />
+          <label class="form-check-label" for="selesai"
+            >Sudah selesai dibaca</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary w-100 text-white">
+          Masukkan buku ke rak
+        </button>
+      </form>
+      <form class="card border rounded-3 mt-3 p-4">
+        <h3 class="text-center text-primary mb-3">Cari Buku</h3>
+        <div class="row g-3 align-items-center">
+          <label for="judul2" class="form-label col-auto">Judul Buku</label>
+          <div class="col-sm">
+            <input type="text" id="judul2" class="form-control" />
+          </div>
+          <button type="submit" class="btn btn-primary text-white col-auto">
+            Cari buku
+          </button>
+        </div>
+      </form>
+      <div class="card mt-3 p-4">
+        <h3 class="card-title text-center text-primary mb-3">
+          Belum selesai dibaca
+        </h3>
+        <div class="row">
+          <div class="card col col-sm-6 p-2">
+            <!-- <h3 id="judul-buku">Judul Buku</h3> -->
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <b>
+                  <span id="judul-buku" class="card-title">Karyo Math</span>
+                </b>
+              </li>
+              <li class="list-group-item">
+                Penulis:
+                <span id="penulis-buku">Pak Karyo</span>
+              </li>
+              <li class="list-group-item border-bottom-0">
+                Tahun:
+                <span id="tahun-buku">2006</span>
+              </li>
+              <li class="btn-group">
+                <button class="btn btn-success" id="pindah-btn">Pindah</button>
+                <button class="btn btn-danger" id="hapus-btn">
+                  Hapus buku
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-3 p-4">
+        <h3 class="card-title text-center text-primary mb-3">Selesai dibaca</h3>
+      </div>
+    </main>
+  </body>
+</html>
