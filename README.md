@@ -4,7 +4,7 @@ Projek ini saya buat untuk memenuhi tugas saya pada kelas [Dicoding](https://dic
 
 Klik link berikut untuk melihat tampilan projek:
 <br />
-https://trisbman.github.io/aplikasi-rak-buku/public
+[https://trisbman.github.io/aplikasi-rak-buku/public](https://trisbman.github.io/aplikasi-rak-buku/public)
 
 ## Kreator
 
