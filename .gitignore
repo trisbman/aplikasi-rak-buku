@@ -125,5 +125,5 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node
 
 # Personal .gitignore
-./scss
-./js
+scss/
+js/
