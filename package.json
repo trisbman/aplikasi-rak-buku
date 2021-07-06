@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w ./scss/ -o public/ --recursive"
+    "sass": "node-sass -w ./scss/ -o public/ --recursive",
+    "js": "minify ./js/script.js > ./public/script.min.js"
   },
   "author": "Tristan Budiman",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "bootstrap": "^5.0.2"
   },
   "devDependencies": {
+    "minify": "^7.0.2",
     "node-sass": "^6.0.0"
   }
 }
