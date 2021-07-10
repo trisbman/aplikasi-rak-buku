@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w ./scss/ -o public/ --recursive",
-    "js": "minify ./js/script.js > ./public/script.min.js"
+    "js": "minify js/script.js > public/script.min.js"
   },
   "author": "Tristan Budiman",
   "license": "MIT",
