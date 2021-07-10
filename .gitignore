@@ -127,3 +127,4 @@ dist
 # Personal .gitignore
 /scss/
 /js/
+public/js/ajax.js
