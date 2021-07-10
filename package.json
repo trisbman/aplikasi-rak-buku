@@ -1,11 +1,11 @@
 {
   "name": "bookshelf-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bookshelf web application",
   "main": "index.html",
   "scripts": {
-    "sass": "node-sass -w ./scss/ -o public/ --recursive",
-    "js": "minify js/script.js > public/script.min.js"
+    "scss": "sass --style=compressed --watch scss/style.scss:public/css/style.min.css",
+    "js": "minify js/script.js > public/js/script.min.js"
   },
   "author": "Tristan Budiman",
   "license": "MIT",
@@ -14,6 +14,6 @@
   },
   "devDependencies": {
     "minify": "^7.0.2",
-    "node-sass": "^6.0.0"
+    "sass": "^1.35.2"
   }
 }
